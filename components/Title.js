@@ -1,12 +1,13 @@
 import React from "react";
 
-function Title() {
+const Title = () => {
   return (
-    <div>
+    <div className="title">
       <h1>Xenol Photo Gallery</h1>
-      <h3>Photos</h3>
+      <h2>All Photos</h2>
+      <p>Welcome to image gallery application</p>
     </div>
   );
-}
+};
 
 export default Title;

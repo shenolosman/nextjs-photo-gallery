@@ -1,18 +1,18 @@
-:root {
+/* :root {
   --primary: "#6c5ce7";
   --secondary: "#4b4b4b";
   --error: "#e17055";
-}
+} */
 
 body {
-  color: var(--secondary);
+  color: #4b4b4b;
 }
 .App {
   max-width: 960px;
   margin: 0 auto;
 }
 .title h1 {
-  color: var(--primary);
+  color: #6c5ce7;
   font-size: 1.2rem;
   letter-spacing: 2px;
   font-weight: normal;
@@ -27,3 +27,36 @@ body {
   font-size: 2.6rem;
 }
 
+form {
+  margin: 30px auto 10px;
+  text-align: center;
+}
+label input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #6c5ce7;
+  border-radius: 50%;
+  margin: 10px auto;
+  color: #6c5ce7;
+  font-weight: bold;
+  font-size: 24px;
+}
+label:hover {
+  background: #6c5ce7;
+  color: white;
+}
+
+.output {
+  height: 60px;
+  font-size: 1rem;
+}
+.error {
+  color: red;
+}
