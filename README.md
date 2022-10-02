@@ -9,3 +9,14 @@ next js link:
 
 firebase link:
 `https://console.firebase.google.com/`
+
+framer-motion (animated frames)
+`https://www.framer.com/motion/`
+
+
+home screenshots 
+
+![home](/public/img/home.jpg "Home")
+
+
+![home](/public/img/home2.jpg "Home")
